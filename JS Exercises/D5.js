@@ -31,6 +31,7 @@ console.log(pets.reverse());
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+pets.push(pets.shift());
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -124,23 +125,27 @@ while(numericArray[i] !== 32){
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
 
-// for(let i = 0; i<charactersArray.length; i++){
+let arr = [];
+let letters = "";
+for( let i = 0;i < charactersArray.length;i++){
+  
+  switch(charactersArray[i]){
+    case "g":
+      arr.push(7);
+      break;
+    case "n":
+      arr.push(12);
+      break;
+    case "u":
+      arr.push(19);
+      break;
+    case "z":
+      arr.push(21);
+      break;
+    case "d" :
+    arr.push(4);
+    break;
+}
+}
 
-//   switch(charactersArra[i]){
-//     case "g": 
-//       arr.push(charactersArra[i]);
-//       break; //luke, owen, beru
-//     case "yellow":
-//       eyeColor.yellow.push(starWarsCharacters[i]);
-//       break;
-//     case "brown":
-//       eyeColor.brown.push(starWarsCharacters[i]);
-//       break;
-//     case "red":
-//       eyeColor.red.push(starWarsCharacters[i]);
-//       break;
-//     case "blue-gray": 
-//       eyeColor.bluegray.push(starWarsCharacters[i]); 
-//       break;
-//   }
-// }
+console.log(arr)

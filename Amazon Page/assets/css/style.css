@@ -5,6 +5,11 @@ body{
     background-color: #e9edee;
     /* text-align: center; */
 }
+
+main{
+    margin-top: 10px;
+}
+
 button{
     border: none;
     background-color: transparent;
@@ -16,6 +21,7 @@ button{
 header img{
     height: 40px;
     padding: 10px;
+    margin-top: 10px;
 }
 .amazon{
     background-color: #222f3f;
@@ -41,14 +47,9 @@ header img{
     width: 90vw;
     text-align: center;
     margin: 20px auto;
-    padding: 5px;
+    padding: 5px 0;
 }
 
-.banner{
-    background-image: url("../images/bg-img.png");
-    height: 200px;
-    background-size: contain;
-}
 .banner2{
     background-image: url(../images/bg-image.png);
     background-size: contain;
@@ -66,6 +67,11 @@ header img{
    padding: 20px;
 }
 
+.banner2 div{
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+
 /* MAIN */
 aside{
     background-color: white;
@@ -74,10 +80,14 @@ aside{
     text-align: center
 }
 
+#shop{
+    text-align: left;
+}
 #shop p,button{
     display: inline;
     text-align: left;
     padding: 10px;
+    font-weight: bold;
 }
 
 .small_picture{
@@ -101,7 +111,9 @@ aside{
 #large_picture img{
     width: 90vw;
 }
-
+figcaption{
+    font-weight: bold;
+}
 /* FOOTER */
 footer{
     text-align: center;
@@ -117,5 +129,9 @@ footer a{
 
 footer img{
     height: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+footer .amazon{
+    height: 20vh;
 }
