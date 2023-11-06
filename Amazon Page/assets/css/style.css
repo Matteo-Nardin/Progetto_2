@@ -1,0 +1,121 @@
+/* Your styles here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: #e9edee;
+    /* text-align: center; */
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: purple;
+    font-weight: bold;
+}
+
+/* HEADER */
+header img{
+    height: 40px;
+    padding: 10px;
+}
+.amazon{
+    background-color: #222f3f;
+    height: 10vh;
+}
+#navbar{
+    padding: 5px;
+}
+#navbar p{
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+.light{
+    background-color: #364759;
+    padding: 10px;
+}
+
+#orange {
+    color: white;
+    background-color: #f56600;
+    width: 90vw;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.banner{
+    background-image: url("../images/bg-img.png");
+    height: 200px;
+    background-size: contain;
+}
+.banner2{
+    background-image: url(../images/bg-image.png);
+    background-size: contain;
+    height: 200px;
+    width: 90vw;
+    background-repeat: repeat;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner2 p:nth-child(even){
+   font-size: 0.8rem;
+   padding: 20px;
+}
+
+/* MAIN */
+aside{
+    background-color: white;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center
+}
+
+#shop p,button{
+    display: inline;
+    text-align: left;
+    padding: 10px;
+}
+
+.small_picture{
+    display: inline-block;
+    margin: 20px;
+}
+
+.small_picture img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 6px 5px 2px #b6b6b6;
+}
+
+#large_picture figure{
+    margin: 20px;
+    text-align: center;
+}
+
+#large_picture img{
+    width: 90vw;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+}
+
+.light > a{
+    padding: 10px;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+}
+
+footer img{
+    height: 50px;
+    margin-top: 20px;
+}
